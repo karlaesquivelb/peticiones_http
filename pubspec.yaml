@@ -1,0 +1,18 @@
+name: catalogo_peliculas
+description: Una aplicación Flutter para mostrar un catálogo de películas.
+publish_to: 'none' # Deshabilitar publicación
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
